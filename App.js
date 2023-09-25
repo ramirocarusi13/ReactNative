@@ -1,15 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
-import { BottomTab } from './src/navigation/BottomTab'
+import 'react-native-gesture-handler'
+import Navigation from './Navigation'
+
 
 
 const App = () => {
-  return (
-      <NavigationContainer>
-        <BottomTab />
-      </NavigationContainer>
-  )
+    return (
+        <Navigation />
+    )
 }
 
 export default App
