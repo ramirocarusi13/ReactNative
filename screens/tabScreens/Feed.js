@@ -34,7 +34,7 @@ const Feed = () => {
         {
             title: 'Nicho 3',
             subtitle: 'Descripción del Nicho 3',
-            image: require('../../assets/traje.png'), // Reemplaza con la ruta correcta de la imagen
+            image: require('../../assets/pantalon.png'), // Reemplaza con la ruta correcta de la imagen
             backgroundColor: '#33FF57', // Color de fondo personalizado
             size: gridSize, // Tamaño de la tarjeta
         },
